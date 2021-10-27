@@ -1,0 +1,375 @@
+@import url(
+    'https://fonts.googleapis.com/css2?family=Abel&family=Dosis:wght@500&family=Arima+Madurai:wght@700&family=Cinzel:wght@600&family=Bubblegum+Sans&family=Frijole&family=Lobster&family=Quicksand:wght@400;700&family=Rasa:wght@700&family=Roboto&display=swap'
+);
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    display: inline;
+}
+
+
+nav {
+    background-color: #222222;
+    font-size: 16px;
+}
+nav ul {
+    background-color: #222222;
+    margin: 0;
+    overflow: hidden;
+}
+nav li {
+    display: inline;
+    margin-left: 10px;
+}
+.webname {
+    font-family: 'Lobster', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3em;
+    letter-spacing: 0.10em;
+    background: -webkit-linear-gradient(#FF9900, #FFD3AD);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+[capital] {
+    font-family: 'Frijole', sans-serif;
+}
+nav a {
+    margin-left: 100px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: #E9D2C1;
+    font-size: 1.5em;
+}
+nav a:hover {
+    font-weight: bold;
+}
+nav p {
+    font-family: 'Quicksand', sans-serif;
+}
+.navbar .icon {
+display: none;
+}
+
+.jumbotron {
+    background-image: linear-gradient(#271F1F, #482011);
+    overflow: auto;
+    font-size: 16px;
+}
+.header-text {
+    color: #FFFFFF;
+    float: left;
+    margin: 60px 10px;
+    padding-left: 50px;
+    font-size: 1.2em;
+}
+[subtitle] {
+    font-family: 'Rasa', cursive;
+    font-size: 1.8em;
+    letter-spacing: 0.1em;
+}
+[sub-subtitle] {
+    font-family: 'Bubblegum Sans', sans-serif;
+    font-size: 1.05em;
+    letter-spacing: 0.2em;
+}
+#profile-photo {
+    float: right;
+    width: 59%;
+}
+
+main {
+    position: left;
+    overflow: auto;
+    padding-left: 10px;
+}
+img {
+    width: 100%;
+}
+.title-board {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+}
+
+.content {
+    float: left;
+    width : 70%;
+    font-family: 'Dosis';
+    font-size: 16px;
+}
+aside {
+    font-family: 'Abel';
+    float: right;
+    width: 28%;
+    margin-top: 20px;
+    margin-right: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+aside li {
+    list-style-type: none;
+}
+aside h1 {
+    border-radius: 5%;
+    display: flex;
+    padding: 70px;
+    flex-direction: column;
+    background-image: linear-gradient(#222222, #482011);
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+}
+aside h2 {
+    color: #FF9900;
+}
+.box-profile {
+    padding-left: 20px;
+}
+#photo-profile {
+    width: 100px;
+    height: 130px;
+}
+button {
+    height: 50px;
+    width: 100px;
+    font-weight: bold;
+    background-color: #FF9900;
+}
+#Menu_Down {
+    font-size: 24px; 
+    font-weight: bold; 
+    color: #482011;
+}
+
+.flex-top6, .flex-news {
+    padding: 20px;
+    margin-top : 20px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.icon {
+    width: 30px;
+    height: 30px;
+}
+
+.column-top6 {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    padding: 10px;
+    
+}
+.row-top6 {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+}
+.box-top6 {
+    flex-basis: 33.3%;
+    margin: 5px;
+}
+.box-top6 img {
+    border-radius: 50%;
+}
+.info {
+    text-align: center;
+}
+
+.flex-trending {
+    background-image: linear-gradient(#271F1F, #482011);
+    padding-top: 20px;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    color: white;
+    font-family: 'Bubblegum Sans', sans-serif;
+    font-size: x-large;
+    letter-spacing: 0.3em;
+}
+.flex-column {
+    display: flex;
+    height: 80%;
+    flex-direction: column;
+}
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    
+}
+.box {
+    
+    flex-basis: 25%;
+    margin: 2px;
+    overflow: hidden;
+}
+.box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.box-news {
+margin: 5px;
+background-color: white;
+overflow:hidden;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.box-news section {
+display: flex;
+flex-direction: row;
+}
+
+.news-img {
+flex-basis: 40%;
+overflow: hidden;
+}
+
+.news-img img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+.news-section {
+display: flex;
+flex-direction: column;
+flex-basis: 70%;
+float: right;
+height: 300px;
+margin: 0px 20px 5px 10px;
+text-align: left;
+}
+.news-section h2 {
+margin-top: 10px;
+font-size: 1.7em;
+}
+
+.news-section div {
+flex-basis: 50%;
+}
+
+footer {
+    padding: 15px;
+    color: #E9D2C1;
+    background-color: #222222;
+    text-align: center;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1220px) {
+    nav {
+        font-size: 12px;
+    }
+    .jumbotron {
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 1050px) {
+    nav a {
+        margin-left: 50px;
+    }
+    .jumbotron {
+        font-size: 10.5px;
+    }
+}
+@media screen and (max-width: 870px) {
+    nav a {
+        margin-left: 30px;
+    }
+    .jumbotron {
+        font-size: 10px;
+    }
+    .header-text {
+        padding-left: 30px;
+    }
+    .content, aside {
+        width: 100%;
+        padding: 0;
+    }
+    .box-profile {
+        text-align: center;
+    }
+}
+@media screen and (max-width: 790px) {
+    nav {
+        font-size: 10px;
+    }
+    .jumbotron {
+        font-size: 8px;
+    }
+}
+@media screen and (max-width: 680px) {
+    .jumbotron {
+        font-size: 12px;
+    }
+    #profile-photo {
+        float: none;
+        width: 100%;
+        height: 50%;
+    }
+@media screen and (max-width: 621px) {
+    nav a {
+        margin-left: 10px;
+    }
+}
+@media screen and (max-width: 560px) {
+    .webname {
+        margin-left: 0;
+    }
+    nav {
+        font-size: 8px;
+    }
+    nav  a {
+        margin-left: 0;
+    }
+    .navbar a {
+    display: none;
+    }
+    .navbar a.icon {
+    float: right;
+    display: block;
+    margin-top: 10px;
+    }
+    .navbar.responsive {
+        position: relative;
+    }
+    .navbar.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    }
+    .navbar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    }
+    .jumbotron {
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .content {
+        font-size: 14px;
+    }
+    .news-img img {
+        height: 70%;
+    }
+    
+}
+}
